@@ -13,7 +13,6 @@ export default function Dashboard() {
         <LandingHeader />
         <main className="space-y-40 mb-0">
           <DashboardHero />
-          <FeedDataCard />
           <Chatbot />
         </main>
       </LandingLayout>
