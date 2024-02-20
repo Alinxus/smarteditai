@@ -3,7 +3,7 @@ import { getToken } from "next-auth/jwt";
 export default async (req, res) => {
   const token = await getToken({
     req: req,
-    secret: process.env.NEXTAUTH_SECRET,
+    secret: process.env.CLERK_SECRET_KEY,
   });
 
   if (token) {

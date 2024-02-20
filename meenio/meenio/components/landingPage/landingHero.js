@@ -71,7 +71,7 @@ export default function LandingHero() {
                     <Button link="#" text="Show Dialog" type="primary" />
                   </div>
                   <Button
-                    link={isAuthenticated ? "/dashboard" : "/api/auth/signin"}
+                    link={isAuthenticated ? "/dashboard" : "/pages/api/auth"}
                     text="Get Started"
                     type="primary"
                   />

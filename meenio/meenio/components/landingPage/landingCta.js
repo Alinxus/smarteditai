@@ -33,7 +33,7 @@ export default function LandingCta() {
 
               <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
                 <Button
-                  link={isAuthenticated ? "/dashboard" : "/api/auth/signin"}
+                  link={isAuthenticated ? "/dashboard" : "/pages/sign-in"}
                   text="Get Started"
                   type="primary"
                 />
